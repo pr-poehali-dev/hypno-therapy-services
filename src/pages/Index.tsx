@@ -420,17 +420,7 @@ export default function Index() {
                     </CardDescription>
                   </CardHeader>
                 </Card>
-                <Card>
-                  <CardHeader>
-                    <Icon name="MapPin" className="text-primary mb-3" size={32} />
-                    <CardTitle>Адрес офиса</CardTitle>
-                    <CardDescription className="text-base">
-                      Москва, ул. Остоженка, д. 15<br/>
-                      Офис 204 (2 этаж)<br/>
-                      м. Кропоткинская
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
+
                 <Card>
                   <CardHeader>
                     <Icon name="MessageCircle" className="text-primary mb-3" size={32} />

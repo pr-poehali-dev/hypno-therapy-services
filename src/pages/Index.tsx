@@ -388,10 +388,9 @@ export default function Index() {
                 <Card>
                   <CardHeader>
                     <Icon name="MessageCircle" className="text-primary mb-3" size={32} />
-                    <CardTitle>Мессенджеры</CardTitle>
-                    <CardDescription className="text-base">Telegram: +7 952 775 2182 или @warrior107
-МАКС: +7 952 775 2182
-</CardDescription>
+                    <CardTitle>Мессенджеры для связи через текстовые и голосовые сообщения</CardTitle>
+                    <CardDescription className="text-base">
+Telegram: +7 952 775 2182 или @warrior107 МАКС: +7 952 775 2182</CardDescription>
                   </CardHeader>
                 </Card>
               </div>

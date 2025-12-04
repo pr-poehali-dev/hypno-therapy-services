@@ -391,10 +391,8 @@ export default function Index() {
                   <CardHeader>
                     <Icon name="Mail" className="text-primary mb-3" size={32} />
                     <CardTitle>Email</CardTitle>
-                    <CardDescription className="text-base">
-                      elena.volkova@hypnotherapy.ru<br/>
-                      Отвечаю в течение 24 часов
-                    </CardDescription>
+                    <CardDescription className="text-base">ru7.1@ya.ru
+Отвечаю в течение 24 часов</CardDescription>
                   </CardHeader>
                 </Card>
 

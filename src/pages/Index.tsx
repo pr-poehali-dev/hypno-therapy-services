@@ -25,7 +25,7 @@ export default function Index() {
     <div className="min-h-screen bg-gradient-to-b from-white via-secondary/20 to-white">
       <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-border">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-primary">Гипнотерапия</h1>
+          <h1 className="text-2xl font-bold text-primary">Дамир - Гипнотерапевт</h1>
           <div className="hidden md:flex gap-6 items-center">
             <a href="#about" className="text-sm hover:text-primary transition-colors">Обо мне</a>
             <a href="#services" className="text-sm hover:text-primary transition-colors">Услуги</a>
@@ -77,9 +77,9 @@ export default function Index() {
             </div>
             <div className="space-y-6">
               <Badge variant="secondary">Обо мне</Badge>
-              <h3 className="text-5xl font-bold">Елена Волкова</h3>
+              <h3 className="text-5xl font-bold">Дамир</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Сертифицированный гипнотерапевт с 12-летним опытом работы. Помогла более 500 клиентам 
+                Сертифицированный гипнотерапевт с 12-летним опытом работы. Помог более 500 клиентам 
                 справиться с тревожностью, фобиями, зависимостями и психосоматическими расстройствами.
               </p>
               <div className="space-y-4">
@@ -402,7 +402,7 @@ export default function Index() {
 
       <footer className="bg-foreground text-background py-12">
         <div className="container mx-auto px-6 text-center">
-          <h2 className="text-2xl font-bold mb-4">Гипнотерапия</h2>
+          <h2 className="text-2xl font-bold mb-4">Дамир - Гипнотерапевт</h2>
           <p className="text-background/70 mb-6">Профессиональная помощь в решении психологических проблем</p>
           <div className="flex justify-center gap-6 mb-6 flex-wrap">
             <a href="#about" className="text-background/70 hover:text-background transition-colors">Обо мне</a>

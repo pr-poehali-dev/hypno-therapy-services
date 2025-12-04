@@ -331,43 +331,20 @@ export default function Index() {
                   </div>
 
                   <div className="space-y-2">
-                    <label className="text-sm font-medium">Формат консультации</label>
-                    <Tabs defaultValue="online" className="w-full" onValueChange={(value) => setFormData({...formData, format: value})}>
-                      <TabsList className="grid w-full grid-cols-2">
-                        <TabsTrigger value="online" className="flex items-center gap-2">
-                          <Icon name="Video" size={16} />
-                          Онлайн
-                        </TabsTrigger>
-                        <TabsTrigger value="offline" className="flex items-center gap-2">
-                          <Icon name="MapPin" size={16} />
-                          Очно
-                        </TabsTrigger>
-                      </TabsList>
-                      <TabsContent value="online" className="mt-4">
-                        <div className="bg-accent/30 p-4 rounded-lg">
-                          <p className="text-sm text-muted-foreground">
-                            <Icon name="Check" className="inline mr-1" size={16} />
-                            Сеанс проводится через защищенное видео-соединение Zoom
-                          </p>
-                          <p className="text-sm text-muted-foreground mt-2">
-                            <Icon name="Check" className="inline mr-1" size={16} />
-                            Вам понадобится тихое комфортное место и стабильный интернет
-                          </p>
-                        </div>
-                      </TabsContent>
-                      <TabsContent value="offline" className="mt-4">
-                        <div className="bg-accent/30 p-4 rounded-lg">
-                          <p className="text-sm text-muted-foreground">
-                            <Icon name="MapPin" className="inline mr-1" size={16} />
-                            Адрес: Москва, ул. Остоженка, д. 15, офис 204
-                          </p>
-                          <p className="text-sm text-muted-foreground mt-2">
-                            <Icon name="Clock" className="inline mr-1" size={16} />
-                            Работаю: ПН-ПТ 10:00-20:00, СБ 11:00-17:00
-                          </p>
-                        </div>
-                      </TabsContent>
-                    </Tabs>
+                    <div className="bg-accent/30 p-4 rounded-lg">
+                      <div className="flex items-center gap-2 mb-2">
+                        <Icon name="Video" className="text-primary" size={20} />
+                        <span className="font-medium">Онлайн-консультация</span>
+                      </div>
+                      <p className="text-sm text-muted-foreground">
+                        <Icon name="Check" className="inline mr-1" size={16} />
+                        Сеанс проводится через защищенное видео-соединение Zoom
+                      </p>
+                      <p className="text-sm text-muted-foreground mt-2">
+                        <Icon name="Check" className="inline mr-1" size={16} />
+                        Вам понадобится тихое комфортное место и стабильный интернет
+                      </p>
+                    </div>
                   </div>
 
                   <div className="space-y-2">

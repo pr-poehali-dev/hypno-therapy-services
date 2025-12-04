@@ -402,11 +402,9 @@ export default function Index() {
                   <CardHeader>
                     <Icon name="MessageCircle" className="text-primary mb-3" size={32} />
                     <CardTitle>Мессенджеры</CardTitle>
-                    <CardDescription className="text-base">
-                      Telegram: @elena_hypno<br/>
-                      WhatsApp: +7 (495) 123-45-67<br/>
-                      Viber: +7 (495) 123-45-67
-                    </CardDescription>
+                    <CardDescription className="text-base">Telegram: +7 952 775 2182 или @warrior107
+МАКС: +7 952 775 2182
+</CardDescription>
                   </CardHeader>
                 </Card>
               </div>

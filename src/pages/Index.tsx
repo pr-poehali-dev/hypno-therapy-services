@@ -378,17 +378,6 @@ export default function Index() {
               <div className="grid md:grid-cols-2 gap-8">
                 <Card>
                   <CardHeader>
-                    <Icon name="Phone" className="text-primary mb-3" size={32} />
-                    <CardTitle>Телефон</CardTitle>
-                    <CardDescription className="text-base">
-                      +7 (495) 123-45-67<br/>
-                      Пн-Пт: 10:00 - 20:00<br/>
-                      Сб: 11:00 - 17:00
-                    </CardDescription>
-                  </CardHeader>
-                </Card>
-                <Card>
-                  <CardHeader>
                     <Icon name="Mail" className="text-primary mb-3" size={32} />
                     <CardTitle>Email</CardTitle>
                     <CardDescription className="text-base">ru7.1@ya.ru
